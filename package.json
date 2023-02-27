@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ryosuke-horie/GptcalorieBot#readme",
   "dependencies": {
     "@line/bot-sdk": "^7.5.2",
+    "dotenv": "^16.0.3",
     "openai": "^3.1.0"
   }
 }

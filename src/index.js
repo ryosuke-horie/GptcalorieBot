@@ -1,8 +1,9 @@
 import * as line from "@line/bot-sdk";
 import { Configuration, OpenAIApi } from "openai";
+require('dotenv').config();
 
-const LINE_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-const GPT_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const LINE_TOKEN = process.env.LINE_TOKEN;
+const GPT_KEY = process.env.GPT_KEY;
 
 export const handler = async(event) => {
     const client = new line.Client({

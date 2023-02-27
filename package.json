@@ -1,0 +1,23 @@
+{
+  "name": "gptcaloriebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryosuke-horie/GptcalorieBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryosuke-horie/GptcalorieBot/issues"
+  },
+  "homepage": "https://github.com/ryosuke-horie/GptcalorieBot#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "openai": "^3.1.0"
+  }
+}
